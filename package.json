@@ -1,0 +1,24 @@
+{
+  "name": "sql-agent",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.18",
+    "@langchain/groq": "^0.1.2",
+    "@langchain/langgraph": "^0.2.22",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.3.6",
+    "mysql2": "^3.11.4",
+    "nodemon": "^3.1.7",
+    "typeorm": "^0.3.20"
+  }
+}
